@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="ejbModule"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/activemq-broker-5.16.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/activemq-client-5.16.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/activemq-jdbc-store-5.16.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/activemq-kahadb-store-5.16.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/activemq-openwire-legacy-5.16.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/activemq-protobuf-1.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/activemq-ra-5.16.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/activemq-spring-5.16.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/batchee-jbatch-0.5-incubating.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/bcprov-jdk15on-1.67.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/bval-jsr-2.0.5.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/catalina.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/catalina-ant.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/catalina-ha.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/catalina-ssi.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/catalina-storeconfig.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/catalina-tribes.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/commons-beanutils-1.9.4.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/commons-cli-1.4.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/commons-codec-1.15.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/commons-collections-3.2.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/commons-collections4-4.4.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/commons-dbcp2-2.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/commons-digester-1.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/commons-jcs-core-2.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/commons-jcs-jcache-2.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/commons-lang3-3.11.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/commons-logging-1.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/commons-pool2-2.3.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cryptacular-1.2.4.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-core-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-rt-bindings-soap-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-rt-bindings-xml-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-rt-databinding-jaxb-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-rt-frontend-jaxrs-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-rt-frontend-jaxws-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-rt-frontend-simple-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-rt-management-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-rt-rs-client-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-rt-rs-extension-providers-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-rt-rs-extension-search-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-rt-rs-json-basic-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-rt-rs-mp-client-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-rt-rs-security-cors-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-rt-rs-security-jose-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-rt-rs-security-jose-jaxrs-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-rt-rs-security-oauth2-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-rt-rs-service-description-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-rt-rs-sse-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-rt-security-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-rt-security-saml-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-rt-transports-http-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-rt-ws-addr-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-rt-wsdl-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-rt-ws-policy-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/cxf-rt-ws-security-3.3.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/ecj-4.17.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/el-api.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/FastInfoset-1.2.16.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/geronimo-config-impl-1.2.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/geronimo-connector-3.1.4.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/geronimo-health-1.0.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/geronimo-health-common-1.0.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/geronimo-javamail_1.6_mail-1.0.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/geronimo-metrics-1.0.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/geronimo-metrics-common-1.0.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/geronimo-openapi-impl-1.0.12.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/geronimo-opentracing-1.0.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/geronimo-transaction-3.1.4.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/hawtbuf-1.11.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/howl-1.0.1-1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/hsqldb-2.3.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/istack-commons-runtime-3.0.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/jackson-annotations-2.12.0-rc1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/jackson-core-2.12.0-rc1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/jackson-databind-2.12.0-rc1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/jackson-dataformat-yaml-2.12.0-rc1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/jakarta.activation-1.2.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/jakarta.xml.bind-api-2.3.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/jasper.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/jasper-el.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/jaspic-api.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/jasypt-1.9.3.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/javaee-api-8.0-5.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/java-support-7.3.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/jaxb-runtime-2.3.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/joda-time-2.9.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/johnzon-core-1.2.9.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/johnzon-jaxrs-1.2.9.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/johnzon-jsonb-1.2.9.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/johnzon-jsonp-strict-1.2.9.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/johnzon-mapper-1.2.9.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/jose4j-0.6.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/jsp-api.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/mbean-annotation-api-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/microprofile-config-api-1.3.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/microprofile-fault-tolerance-api-1.1.4.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/microprofile-health-api-1.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/microprofile-jwt-auth-api-1.1.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/microprofile-metrics-api-1.1.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/microprofile-openapi-api-1.1.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/microprofile-opentracing-api-1.1.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/microprofile-rest-client-api-1.3.3.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/mimepull-1.9.11.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/mp-common-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/mp-jwt-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/myfaces-api-2.3.7.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/myfaces-impl-2.3.7.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/neethi-3.0.3.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openejb-api-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openejb-client-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openejb-core-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openejb-cxf-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openejb-cxf-rs-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openejb-cxf-transport-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openejb-ejbd-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openejb-hsql-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openejb-http-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openejb-javaagent.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openejb-jee-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openejb-jee-accessors-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openejb-jpa-integration-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openejb-loader-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openejb-rest-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openejb-server-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openejb-webservices-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openjpa-3.1.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/opensaml-core-3.3.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/opensaml-profile-api-3.3.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/opensaml-saml-api-3.3.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/opensaml-saml-impl-3.3.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/opensaml-security-api-3.3.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/opensaml-security-impl-3.3.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/opensaml-soap-api-3.3.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/opensaml-xacml-api-3.3.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/opensaml-xacml-impl-3.3.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/opensaml-xacml-saml-api-3.3.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/opensaml-xacml-saml-impl-3.3.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/opensaml-xmlsec-api-3.3.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/opensaml-xmlsec-impl-3.3.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/opentracing-api-0.31.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openwebbeans-ee-2.0.12.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openwebbeans-ee-common-2.0.12.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openwebbeans-ejb-2.0.12.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openwebbeans-el22-2.0.12.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openwebbeans-impl-2.0.12.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openwebbeans-jsf-2.0.12.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openwebbeans-spi-2.0.12.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/openwebbeans-web-2.0.12.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/org.osgi.annotation.versioning-1.0.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/quartz-2.2.4.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/quartz-openejb-shade-2.2.4.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/saaj-impl-1.5.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/safeguard-impl-1.2.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/serp-1.15.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/servlet-api.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/slf4j-api-1.7.21.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/slf4j-jdk14-1.7.21.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/snakeyaml-1.27.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/spring-beans-5.3.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/spring-context-5.3.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/spring-core-5.3.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/spring-expression-5.3.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/spring-web-5.3.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/stax2-api-3.1.4.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/stax-ex-1.8.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/swizzle-stream-1.6.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/sxc-jaxb-core-0.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/sxc-runtime-0.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/taglibs-shade-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomcat-api.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomcat-coyote.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomcat-dbcp.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomcat-i18n-cs.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomcat-i18n-de.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomcat-i18n-es.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomcat-i18n-fr.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomcat-i18n-ja.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomcat-i18n-ko.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomcat-i18n-pt-BR.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomcat-i18n-ru.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomcat-i18n-zh-CN.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomcat-jdbc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomcat-jni.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomcat-util.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomcat-util-scan.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomcat-websocket.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomee-catalina-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomee-common-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomee-config-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomee-jaxrs-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomee-jdbc-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomee-loader-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomee-mojarra-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomee-myfaces-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomee-security-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomee-webapp-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/tomee-webservices-8.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/txw2-2.3.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/websocket-api.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/woodstox-core-5.0.3.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/wsdl4j-1.6.3.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/wss4j-bindings-2.2.5.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/wss4j-policy-2.2.5.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/wss4j-ws-security-common-2.2.5.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/wss4j-ws-security-dom-2.2.5.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/wss4j-ws-security-policy-stax-2.2.5.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/wss4j-ws-security-stax-2.2.5.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/xbean-asm7-shaded-4.14.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/xbean-asm8-shaded-4.17.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/xbean-bundleutils-4.14.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/xbean-finder-shaded-4.14.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/xbean-naming-4.14.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/xbean-reflect-4.14.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/xbean-spring-3.18.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/xml-resolver-1.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/xmlschema-core-2.2.5.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/tomee/apache-tomee-plus-8.0.6/lib/xmlsec-2.1.4.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
