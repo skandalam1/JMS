@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:amq="http://activemq.apache.org/schema/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd   http://activemq.apache.org/schema/core http://activemq.apache.org/schema/core/activemq-core-5.13.0.xsd">
+    	
+    <broker xmlns="http://activemq.apache.org/schema/core" brokerName="testBroker" enableStatistics="false" offlineDurableSubscriberTaskSchedule="3600000" offlineDurableSubscriberTimeout="259200000" persistent="true" schedulerSupport="true" start="false" useShutdownHook="true">
+        	
+        <networkConnectors>
+            			
+            <networkConnector name="connector1" uri="static:(nio://localhost:10000)">
+                				
+                <!--Clustered Destinations-->
+                	
+                				
+                <!--not clustered-->
+                                
+                			
+            </networkConnector>
+            		
+        </networkConnectors>
+        		
+		
+        <destinationPolicy>
+            			
+            <policyMap>
+                				
+                <defaultEntry>
+                    					
+                    <policyEntry>
+                        						
+                        <!--The constantPendingMessageLimitStrategy is used to prevent
+						slow topic consumers to block producers and affect other consumers
+						by limiting the number of messages that are retained
+						For more information, see:
+						http://activemq.apache.org/slow-consumer-handling.html -->
+                        											
+						
+                        <pendingMessageLimitStrategy>
+                            							
+                            <constantPendingMessageLimitStrategy limit="1000"/>
+                            						
+                        </pendingMessageLimitStrategy>
+                        						
+                        <deadLetterStrategy>
+                            							
+                            <sharedDeadLetterStrategy processExpired="false">
+                                								
+                                <deadLetterQueue>
+                                    									
+                                    <queue name="jms/queue/DLQ" physicalName="jms/queue/DLQ"/>
+                                    								
+                                </deadLetterQueue>
+                                							
+                            </sharedDeadLetterStrategy>
+                            						
+                        </deadLetterStrategy>
+                        					
+                    </policyEntry>
+                    				
+                </defaultEntry>
+                				
+                <policyEntries>
+                    					
+                    					
+                    <policyEntry queue="jms/oQueue">
+                        								
+                        <!--The constantPendingMessageLimitStrategy is used to prevent
+								slow topic consumers to block producers and affect other consumers
+								by limiting the number of messages that are retained
+								For more information, see:
+								http://activemq.apache.org/slow-consumer-handling.html -->
+                        													
+								
+                        <pendingMessageLimitStrategy>
+                            									
+                            <constantPendingMessageLimitStrategy limit="1000"/>
+                            								
+                        </pendingMessageLimitStrategy>
+                        								
+                        <deadLetterStrategy>
+                            									
+                            <sharedDeadLetterStrategy processExpired="false">
+                                										
+                                <deadLetterQueue>
+                                    											
+                                    <queue name="jms/eQueue" physicalName="jms/eQueue"/>
+                                    										
+                                </deadLetterQueue>
+                                									
+                            </sharedDeadLetterStrategy>
+                            								
+                        </deadLetterStrategy>
+                        							
+                    </policyEntry>
+                </policyEntries>
+                			
+            </policyMap>
+            		
+        </destinationPolicy>
+        		
+		
+        <plugins>
+            			
+            <redeliveryPlugin fallbackToDeadLetter="true" sendToDlqIfMaxRetriesExceeded="true">
+                				
+                <redeliveryPolicyMap>
+                    					
+                    <redeliveryPolicyMap>
+                        						
+                        <redeliveryPolicyEntries>
+                            							
+                            <!-- a destination specific policy -->
+                            							
+                            <redeliveryPolicy maximumRedeliveries="12" queue="jms/eQueue" redeliveryDelay="300000"/>
+                            						
+                        </redeliveryPolicyEntries>
+                        						
+                        <!-- the fallback policy for all other destinations -->
+                        						
+                        <defaultEntry>
+                            							
+                            <redeliveryPolicy initialRedeliveryDelay="5000" maximumRedeliveries="4" redeliveryDelay="10000"/>
+                            						
+                        </defaultEntry>
+                        					
+                    </redeliveryPolicyMap>
+                    				
+                </redeliveryPolicyMap>
+                			
+            </redeliveryPlugin>
+            		
+        </plugins>
+        		
+		
+        <!--
+            Configure message persistence for the broker. The default persistence
+            mechanism is the KahaDB store (identified by the kahaDB tag).
+            For more information, see:
+
+            http://activemq.apache.org/persistence.html
+			http://activemq.apache.org/kahadb.html
+        -->
+                
+        <persistenceAdapter>
+                        
+            <kahaDB checkForCorruptJournalFiles="true" checksumJournalFiles="true" directory="activemq-data" ignoreMissingJournalfiles="true" preallocationStrategy="zeros"/>
+                    
+        </persistenceAdapter>
+        		
+		
+        <transportConnectors>
+            			
+            <transportConnector enableStatusMonitor="true" name="nio" uri="nio://localhost:10000?soTimeout=60000&amp;daemon=true&amp;keepAlive=true&amp;connectionTimeout=120000&amp;wireFormat.tcpNoDelayEnabled=true&amp;wireFormat.maxInactivityDuration=240000&amp;wireFormat.maxInactivityDurationInitalDelay=120000"/>
+            		
+        </transportConnectors>
+        	
+    </broker>
+    
+</beans>
