@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<tomee>
+  <!-- see http://tomee.apache.org/containers-and-resources.html -->
+  <Deployments dir="C:\tomee2\apache-tomee-plus-8.0.6\webapps"/>
+  <!-- activate next line to be able to deploy applications in apps -->
+  <!-- <Deployments dir="apps" /> -->
+  
+  <Container ctype="MESSAGE" id="OTMM MDB Container">
+			ResourceAdapter = JmsResourceAdapter
+    </Container>
+	
+	
+  <Resource id="JmsResourceAdapter" type="ActiveMQResourceAdapter">
+        BrokerXmlConfig =  xbean:file:C:/tomee2/apache-tomee-plus-8.0.6/conf/activemq.xml
+    ServerUrl = nio://localhost:10000?soTimeout=60000&amp;daemon=true&amp;keepAlive=true&amp;connectionTimeout=120000&amp;wireFormat.tcpNoDelayEnabled=true&amp;wireFormat.maxInactivityDuration=240000&amp;wireFormat.maxInactivityDurationInitalDelay=120000    
+  </Resource>
+          
+    
+    <Resource id="jms/ConnectionFactory" type="javax.jms.ConnectionFactory">
+        ResourceAdapter = JmsResourceAdapter
+    connectionMaxWaitTime = 30 seconds
+    poolMaxSize = 40
+  </Resource>
+          
+    
+    <Resource id="jms/RemoteConnectionFactory" type="javax.jms.ConnectionFactory">
+        ResourceAdapter = JmsResourceAdapter  
+  </Resource>
+
+  <Resource id="jms/JmsXA" type="javax.jms.ConnectionFactory">
+        ResourceAdapter = JmsResourceAdapter		
+		connectionMaxWaitTime = 30 seconds
+		poolMaxSize = 40
+	</Resource>
+  <Resource id="jms/oQueue" type="javax.jms.Queue"/>
+  <Resource id="jms/eQueue" type="javax.jms.Queue"/>
+</tomee>
